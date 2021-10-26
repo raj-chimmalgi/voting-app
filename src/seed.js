@@ -2,7 +2,7 @@
     return Math.floor((Math.random() * 50) + 15);
   }
 
-  const products = [
+  const PRODUCTS = [
     {
       id: 1,
       title: 'Yellow Pail',
@@ -42,4 +42,4 @@
   ]; 
 
 
-export default products
+export default PRODUCTS
